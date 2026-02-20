@@ -34,6 +34,60 @@
     </style>
   </head>
   <body class="min-h-screen max-w-md bg-base-200 mx-auto">
-    <header class="border-b-2"></header>
+    <header class="border-b-2 border-gray-300">
+      <section class="w-11/12 mx-auto py-3 flex justify-between items-center">
+        <div class="left flex">
+          <img class="logo w-[60px]" src="assets/logo.png" alt="" />
+        </div>
+
+        <div class="balance-info">
+          <h2 class="text-2xl font-bold">
+            <span id="balance-info">45000</span>
+          </h2>
+          <p class="text=neutral/50">Available Balance</p>
+        </div>
+
+        <div class="right">
+          <a href="index.html" class="btn btn-soft"
+            ><i class="fa-solid fa-arrow-right-from-bracket"></i> Logout</a
+          >
+        </div>
+      </section>
+    </header>
+
+    <section>
+      <div class="w-11/12 mx-auto py-5">
+        <h1 class="text-3xl font-bold mb-5">Welcome Back, Payoo!</h1>
+        <p class="text-neutral/70 mb-10">
+          What would you like to do today? Choose an option below to get
+          started.
+        </p>
+
+        <div class="grid grid-cols-2 gap-4">
+          <a
+            href="#"
+            class="btn btn-primary flex flex-col items-center justify-center h-24 rounded-lg"
+            ><i class="fa-solid fa-money-bill-transfer text-xl"></i>
+            <span>Transfer</span></a
+          >
+          <a
+            href="#"
+            class="btn btn-primary flex flex-col items-center justify-center h-24 rounded-lg"
+            ><i class="fa-solid fa-wallet text-xl"></i> <span>Top Up</span></a
+          >
+          <a
+            href="#"
+            class="btn btn-primary flex flex-col items-center justify-center h-24 rounded-lg"
+            ><i class="fa-solid fa-receipt text-xl"></i>
+            <span>Transactions</span></a
+          >
+          <a
+            href="#"
+            class="btn btn-primary flex flex-col items-center justify-center h-24 rounded-lg"
+            ><i class="fa-solid fa-cog text-xl"></i> <span>Settings</span></a
+          >
+        </div>
+      </div>
+    </section>
   </body>
 </html>
